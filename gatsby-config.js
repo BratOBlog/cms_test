@@ -7,12 +7,12 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
+    "gatsby-plugin-netlify-cms",
     "gatsby-plugin-postcss",
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-mdx", // Assuming you want to use MDX
     "gatsby-plugin-sharp",
-    "gatsby-plugin-netlify-cms",
     "gatsby-transformer-sharp",
     "gatsby-transformer-remark", // You already have this, which is for processing Markdown
     {
