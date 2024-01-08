@@ -14,7 +14,7 @@ const Blog = () => {
             frontmatter {
               slug
               title
-              date(formatString: "YYYY-MM-DD")
+              date
             }
             excerpt(pruneLength: 150)
           }
