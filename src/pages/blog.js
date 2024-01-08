@@ -34,7 +34,7 @@ const Blog = () => {
             <p>{node.frontmatter.date}</p>
             <p>{node.excerpt}</p>
 
-            <Link to={`/blog/${node.frontmatter.slug}`}>
+            <Link to={`${node.frontmatter.slug}`}>
               <button className="my-10 p-3 text-blue-800 font-semibold border-gray-800 rounded-md bg-blue-300">
                 Read more
               </button>
