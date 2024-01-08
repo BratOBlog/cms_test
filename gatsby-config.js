@@ -7,13 +7,14 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
+    `gatsby-plugin-decap-cms`,
     "gatsby-plugin-postcss",
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-mdx", // Assuming you want to use MDX
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
-    "gatsby-transformer-remark", // You already have this, which is for processing Markdown
+    "gatsby-transformer-remark",
     {
       resolve: 'gatsby-source-filesystem',
       options: {
