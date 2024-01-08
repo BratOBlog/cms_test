@@ -1,3 +1,9 @@
+---
+title: "Testing 1-2"
+date: "2024-01-08"
+slug: "testing_1_2"
+---
+
 # Markdown Sample
 
 ## Introduction
