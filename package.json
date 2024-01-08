@@ -16,11 +16,9 @@
   "dependencies": {
     "@mdx-js/react": "^3.0.0",
     "autoprefixer": "^10.4.16",
-    "decap-cms-app": "^3.0.12",
     "gatsby": "^5.13.1",
     "gatsby-plugin-image": "^3.13.0",
     "gatsby-plugin-mdx": "^5.13.0",
-    "gatsby-plugin-netlify-cms": "^7.12.1",
     "gatsby-plugin-postcss": "^6.13.0",
     "gatsby-plugin-sharp": "^5.13.0",
     "gatsby-plugin-sitemap": "^6.13.0",
