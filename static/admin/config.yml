@@ -1,31 +1,18 @@
 backend:
   name: git-gateway
   branch: main
-media_folder: /images
-public_folder: /images
+publish_mode: "editorial_workflow"
+media_folder: "/images"
+public_folder: "/images"
 collections:
-  - name: blog
-    label: Blog
-    folder: blog
+  - name: "blog"
+    label: "Blog"
+    folder: "blog"
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    fields:
-      - label: Layout
-        name: layout
-        widget: hidden
-        default: blog
-      - label: Title
-        name: title
-        widget: string
-      - label: Publish Date
-        name: date
-        widget: datetime
-      - label: Featured Image
-        name: thumbnail
-        widget: image
-      - label: Rating (scale of 1-5)
-        name: rating
-        widget: number
-      - label: Body
-        name: body
-        widget: markdown
+    slug: "{slug}}"
+    path: "{slug}}"
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: false, format: "YYYY-MMM-D" }
+      - { label: "Slug", name: "slug", required: true, widget: "string", hint: "remember-to-use-lowercase-and-dashes" }
+      - { label: "Blogpost content", name: "body", widget: "markdown" }
