@@ -15,7 +15,7 @@ collections:
     slug: "{{slug}}"
     media_folder: ""
     public_folder: ""
-    path: "{{title}}/index"
+    path: "{{slug}}"
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: false, format: "YYYY-MMM-D" }
