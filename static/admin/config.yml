@@ -10,7 +10,7 @@ publish_mode: "editorial_workflow"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blogpost" # Used in the UI
-    folder: "src/blog" # The path to the folder where the documents are stored
+    folder: "blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}"
     media_folder: ""
