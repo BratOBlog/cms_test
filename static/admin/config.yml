@@ -9,8 +9,8 @@ collections:
     label: "Blog"
     folder: "blog"
     create: true
-    slug: "{slug}}"
-    path: "{slug}}"
+    slug: "{{slug}}"
+    path: "{{slug}}"
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: false, format: "YYYY-MMM-D" }
