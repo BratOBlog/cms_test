@@ -50,6 +50,12 @@ collections:
           hint: "remember-to-use-lowercase-and-dashes",
         }
       - {
+          label: "Author",
+          name: "author",
+          widget: "string",
+          required: false,
+        }
+      - {
           label: "Cover Image",
           name: "image",
           widget: "image",

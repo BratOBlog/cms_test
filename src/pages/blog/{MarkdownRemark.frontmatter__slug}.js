@@ -22,6 +22,7 @@ query ($id: String!) {
     frontmatter {
       date
       title
+      author
     }
     html
   }
